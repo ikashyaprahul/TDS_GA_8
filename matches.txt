@@ -1,0 +1,17 @@
+Page 1: 11Jan 503 USD -> 40240 Rs
+Page 1: 11JAN 119 Rupees -> 119 Rs
+Page 1: 11Jan 66 Rupees -> 66 Rs
+Page 2: 11Jan 936 USD -> 74880 Rs
+Page 2: 11JAN 801 Dollar -> 64080 Rs
+Page 2: January 11 435 Rs -> 435 Rs
+Page 3: 11Jan 398 Dollar -> 31840 Rs
+Page 5: 11January 496 Rupees -> 496 Rs
+Page 5: 11Jan 972 Dollars -> 77760 Rs
+Page 7: 11January 903 Rs -> 903 Rs
+Page 8: January 11 572 Rupees -> 572 Rs
+Page 9: Jan 11 67 Dollar -> 5360 Rs
+Page 9: 11Jan 937 Dollars -> 74960 Rs
+Page 9: 11January 287 Rupees -> 287 Rs
+Page 9: 11JAN 124 Dollars -> 9920 Rs
+Total count: 15
+Total Rs: 381918

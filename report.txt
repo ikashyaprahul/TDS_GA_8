@@ -1,0 +1,112 @@
+============================================================
+DIAGNOSTIC REPORT
+============================================================
+
+Pages visited (15):
+  index.html
+  page_1.html
+  page_2.html
+  page_3.html
+  page_4.html
+  page_5.html
+  page_6.html
+  page_7.html
+  page_8.html
+  page_9.html
+  page_10.html
+  page_11.html
+  page_12.html
+  page_13.html
+  page_14.html
+
+Pages with UNCAUGHT JS exceptions (3):
+  page_3.html: undefinedFunctionCall_TDS_3 is not defined
+  page_7.html: undefinedFunctionCall_TDS_7 is not defined
+  page_11.html: undefinedFunctionCall_TDS_11 is not defined
+
+============================================================
+FINAL ANSWER
+============================================================
+TOTAL_PAGES_VISITED=15
+TOTAL_ERRORS=3
+FIRST_ERROR_PAGE=page_3.html
+
+
+All console messages:
+  [index.html] [log] [TDS] Student: 23f1003149@ds.study.iitm.ac.in | Page: 0 initialized
+  [index.html] [info] [TDS] Seed: 1037457457 | Runtime diagnostics active
+  [index.html] [debug] [TDS] Debug telemetry enabled on page 0
+  [index.html] [log] [TDS] Background sync started on page 0
+  [index.html] [debug] [TDS] Heartbeat | Student: 23f1003149@ds.study.iitm.ac.in | Page: 0 | 2026-02-28T11:31:10.041Z
+  [page_1.html] [log] [TDS] Student: 23f1003149@ds.study.iitm.ac.in | Page: 1 initialized
+  [page_1.html] [info] [TDS] Seed: 1037457457 | Runtime diagnostics active
+  [page_1.html] [debug] [TDS] Debug telemetry enabled on page 1
+  [page_1.html] [log] [TDS] Background sync started on page 1
+  [page_1.html] [debug] [TDS] Heartbeat | Student: 23f1003149@ds.study.iitm.ac.in | Page: 1 | 2026-02-28T11:31:15.368Z
+  [page_2.html] [log] [TDS] Student: 23f1003149@ds.study.iitm.ac.in | Page: 2 initialized
+  [page_2.html] [info] [TDS] Seed: 1037457457 | Runtime diagnostics active
+  [page_2.html] [debug] [TDS] Debug telemetry enabled on page 2
+  [page_2.html] [warning] [TDS] Deprecated analytics API detected on page 2
+  [page_2.html] [log] [TDS] Background sync started on page 2
+  [page_2.html] [debug] [TDS] Heartbeat | Student: 23f1003149@ds.study.iitm.ac.in | Page: 2 | 2026-02-28T11:31:20.466Z
+  [page_3.html] [log] [TDS] Student: 23f1003149@ds.study.iitm.ac.in | Page: 3 initialized
+  [page_3.html] [info] [TDS] Seed: 1037457457 | Runtime diagnostics active
+  [page_3.html] [log] [TDS] Background sync started on page 3
+  [page_3.html] [error] [TDS] Critical module failure on page 3
+  [page_3.html] [debug] [TDS] Heartbeat | Student: 23f1003149@ds.study.iitm.ac.in | Page: 3 | 2026-02-28T11:31:25.567Z
+  [page_4.html] [log] [TDS] Student: 23f1003149@ds.study.iitm.ac.in | Page: 4 initialized
+  [page_4.html] [info] [TDS] Seed: 1037457457 | Runtime diagnostics active
+  [page_4.html] [log] [TDS] Background sync started on page 4
+  [page_4.html] [debug] [TDS] Heartbeat | Student: 23f1003149@ds.study.iitm.ac.in | Page: 4 | 2026-02-28T11:31:30.650Z
+  [page_5.html] [log] [TDS] Student: 23f1003149@ds.study.iitm.ac.in | Page: 5 initialized
+  [page_5.html] [info] [TDS] Seed: 1037457457 | Runtime diagnostics active
+  [page_5.html] [debug] [TDS] Debug telemetry enabled on page 5
+  [page_5.html] [warning] [TDS] Deprecated analytics API detected on page 5
+  [page_5.html] [log] [TDS] Background sync started on page 5
+  [page_5.html] [debug] [TDS] Heartbeat | Student: 23f1003149@ds.study.iitm.ac.in | Page: 5 | 2026-02-28T11:31:35.760Z
+  [page_6.html] [log] [TDS] Student: 23f1003149@ds.study.iitm.ac.in | Page: 6 initialized
+  [page_6.html] [info] [TDS] Seed: 1037457457 | Runtime diagnostics active
+  [page_6.html] [debug] [TDS] Debug telemetry enabled on page 6
+  [page_6.html] [log] [TDS] Background sync started on page 6
+  [page_6.html] [debug] [TDS] Heartbeat | Student: 23f1003149@ds.study.iitm.ac.in | Page: 6 | 2026-02-28T11:31:40.872Z
+  [page_7.html] [log] [TDS] Student: 23f1003149@ds.study.iitm.ac.in | Page: 7 initialized
+  [page_7.html] [info] [TDS] Seed: 1037457457 | Runtime diagnostics active
+  [page_7.html] [debug] [TDS] Debug telemetry enabled on page 7
+  [page_7.html] [log] [TDS] Background sync started on page 7
+  [page_7.html] [error] [TDS] Critical module failure on page 7
+  [page_7.html] [debug] [TDS] Heartbeat | Student: 23f1003149@ds.study.iitm.ac.in | Page: 7 | 2026-02-28T11:31:45.979Z
+  [page_8.html] [log] [TDS] Student: 23f1003149@ds.study.iitm.ac.in | Page: 8 initialized
+  [page_8.html] [info] [TDS] Seed: 1037457457 | Runtime diagnostics active
+  [page_8.html] [warning] [TDS] Deprecated analytics API detected on page 8
+  [page_8.html] [log] [TDS] Background sync started on page 8
+  [page_8.html] [debug] [TDS] Heartbeat | Student: 23f1003149@ds.study.iitm.ac.in | Page: 8 | 2026-02-28T11:31:51.055Z
+  [page_9.html] [log] [TDS] Student: 23f1003149@ds.study.iitm.ac.in | Page: 9 initialized
+  [page_9.html] [info] [TDS] Seed: 1037457457 | Runtime diagnostics active
+  [page_9.html] [log] [TDS] Background sync started on page 9
+  [page_9.html] [debug] [TDS] Heartbeat | Student: 23f1003149@ds.study.iitm.ac.in | Page: 9 | 2026-02-28T11:31:56.153Z
+  [page_10.html] [log] [TDS] Student: 23f1003149@ds.study.iitm.ac.in | Page: 10 initialized
+  [page_10.html] [info] [TDS] Seed: 1037457457 | Runtime diagnostics active
+  [page_10.html] [debug] [TDS] Debug telemetry enabled on page 10
+  [page_10.html] [log] [TDS] Background sync started on page 10
+  [page_10.html] [debug] [TDS] Heartbeat | Student: 23f1003149@ds.study.iitm.ac.in | Page: 10 | 2026-02-28T11:32:01.264Z
+  [page_11.html] [log] [TDS] Student: 23f1003149@ds.study.iitm.ac.in | Page: 11 initialized
+  [page_11.html] [info] [TDS] Seed: 1037457457 | Runtime diagnostics active
+  [page_11.html] [debug] [TDS] Debug telemetry enabled on page 11
+  [page_11.html] [warning] [TDS] Deprecated analytics API detected on page 11
+  [page_11.html] [log] [TDS] Background sync started on page 11
+  [page_11.html] [error] [TDS] Critical module failure on page 11
+  [page_11.html] [debug] [TDS] Heartbeat | Student: 23f1003149@ds.study.iitm.ac.in | Page: 11 | 2026-02-28T11:32:06.353Z
+  [page_12.html] [log] [TDS] Student: 23f1003149@ds.study.iitm.ac.in | Page: 12 initialized
+  [page_12.html] [info] [TDS] Seed: 1037457457 | Runtime diagnostics active
+  [page_12.html] [debug] [TDS] Debug telemetry enabled on page 12
+  [page_12.html] [log] [TDS] Background sync started on page 12
+  [page_12.html] [debug] [TDS] Heartbeat | Student: 23f1003149@ds.study.iitm.ac.in | Page: 12 | 2026-02-28T11:32:11.450Z
+  [page_13.html] [log] [TDS] Student: 23f1003149@ds.study.iitm.ac.in | Page: 13 initialized
+  [page_13.html] [info] [TDS] Seed: 1037457457 | Runtime diagnostics active
+  [page_13.html] [log] [TDS] Background sync started on page 13
+  [page_13.html] [debug] [TDS] Heartbeat | Student: 23f1003149@ds.study.iitm.ac.in | Page: 13 | 2026-02-28T11:32:16.567Z
+  [page_14.html] [log] [TDS] Student: 23f1003149@ds.study.iitm.ac.in | Page: 14 initialized
+  [page_14.html] [info] [TDS] Seed: 1037457457 | Runtime diagnostics active
+  [page_14.html] [warning] [TDS] Deprecated analytics API detected on page 14
+  [page_14.html] [log] [TDS] Background sync started on page 14
+  [page_14.html] [debug] [TDS] Heartbeat | Student: 23f1003149@ds.study.iitm.ac.in | Page: 14 | 2026-02-28T11:32:21.678Z

@@ -1,0 +1,13 @@
+t=2026-02-27T22:49:04+0530 lvl=info msg="no configuration paths supplied"
+t=2026-02-27T22:49:04+0530 lvl=info msg="using configuration at default config path" path=C:\\Users\\rahul\\AppData\\Local/ngrok/ngrok.yml
+t=2026-02-27T22:49:04+0530 lvl=info msg="open config file" path=C:\\Users\\rahul\\AppData\\Local\\ngrok\\ngrok.yml err=nil
+t=2026-02-27T22:49:04+0530 lvl=info msg="FIPS 140 mode" enabled=false
+t=2026-02-27T22:49:04+0530 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2026-02-27T22:49:04+0530 lvl=info msg="client session established" obj=tunnels.session
+t=2026-02-27T22:49:04+0530 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2026-02-27T22:49:05+0530 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:8000 url=https://ossie-nonpermissive-improperly.ngrok-free.dev
+t=2026-02-27T22:50:47+0530 lvl=info msg="join connections" obj=join id=c6b23d06bdca l=127.0.0.1:8000 r=152.58.190.12:57895
+t=2026-02-27T23:08:26+0530 lvl=info msg="join connections" obj=join id=4e95323c11b8 l=127.0.0.1:8000 r=44.222.65.1:46388
+t=2026-02-27T23:15:26+0530 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2026-02-27T23:15:26+0530 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2026-02-27T23:15:26+0530 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=a9949563fb56 err="reconnecting session closed"
