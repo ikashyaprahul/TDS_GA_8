@@ -1,0 +1,17 @@
+# Exclude files not part of the core project
+exclude = [
+    "GA_3/",
+    "cdp_monitor.py",
+    "extract_job.py",
+    "sentiment_api.py",
+    "solve.py",
+    "test_openai.py",
+    "fix.py",
+    "parse_imdb.py",
+    "update.py",
+    "scrape.js",
+    "mlops-verify/",
+    "iris-api/",
+    "sentiment-api/",
+    "iitm-tds-26t1/",
+]
