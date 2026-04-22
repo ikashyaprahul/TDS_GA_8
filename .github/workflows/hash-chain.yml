@@ -1,0 +1,24 @@
+name: Hash Chain Verification
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  hash-chain:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Compute hash chain 9d75aedb
+        env:
+          MY_SECRET: ${{ secrets.MY_SECRET }}
+        run: |
+          HASH=$(echo -n "${MY_SECRET}github-verified" | sha256sum | awk '{print $1}')
+          VERIFY_HASH=${HASH:0:10}
+          echo "Verify hash: $VERIFY_HASH"
+          echo "$VERIFY_HASH" > verify_hash.txt
+
+      - name: Upload artifact verify-hash-9d75aedb
+        uses: actions/upload-artifact@v4
+        with:
+          name: verify-hash-9d75aedb
+          path: verify_hash.txt
