@@ -1,0 +1,19 @@
+name: Docker Build Size
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build Docker image
+        run: docker build -t mlops-verify ./mlops-verify
+
+      - name: Run container
+        run: docker run --rm mlops-verify
+
+      - name: Get image size
+        run: docker images mlops-verify --format "{{.Size}}"
